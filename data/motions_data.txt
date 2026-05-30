@@ -1,0 +1,4 @@
+mimicposa;mimicposa;0.8
+mimicposb;mimicposb;0.8
+mimicposc;mimicposc;0.8
+mimicposd;mimicposd;0.8

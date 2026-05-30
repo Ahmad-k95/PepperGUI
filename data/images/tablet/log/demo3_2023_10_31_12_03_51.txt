@@ -1,0 +1,45 @@
+2023-10-31 11:50:08
+Checking code...
+No errors
+Checking code...
+> image = ppper.jpeg :: ppper.jpeg doesn't exist
+Checking code...
+> delay = 1r :: 1r not a digit
+Checking code...
+> move = m0 :: m0 not found
+Checking code...
+No errors
+Checking code...
+No errors
+Running...
+> Start time :: 12:01:50
+> Run :: 0
+> say:: hello. i'am pepper
+> image::pepper.jpeg
+> delay::10
+> move::m1
+> image::hide
+> say:: end
+> Battery level: 97%
+> Elapsed time: 33.02 s
+Checking code...
+No errors
+Running...
+> Run :: 1
+> say:: hello. i'am pepper
+> image::pepper.jpeg
+> delay::10
+> move::m1
+> image::hide
+> say:: end
+> break::true
+> Battery level: 97%
+> Elapsed time: 98.47 s
+Checking code...
+No errors
+Running...
+> Run :: 2
+> say:: hello i'm ahmad
+> Battery level: 97%
+> Elapsed time: 109.42 s
+

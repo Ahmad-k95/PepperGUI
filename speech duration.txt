@@ -1,0 +1,121 @@
+text: C’est à moi / duration:955
+text: Tu gères ! / duration:837
+text: Je m’en charge. / duration:1096
+text: C'est pour toi! / duration:957
+text: Voici! / duration:730
+text: bravo! / duration:674
+text: Prépare-toi / duration:980
+text: tien! / duration:567
+text: Prends ca! / duration:675
+text: Parfait, continue ! / duration:1511
+text: impeccable! / duration:976
+text: Au top ! / duration:680
+text: Magnifique ! / duration:1058
+text: Super ! / duration:900
+text: C’est parti. / duration:911
+text: Pour toi ! / duration:739
+text: Je m’en occupe. / duration:1137
+text: Voilà pour toi ! / duration:1142
+text: Attrape! / duration:832
+text: Attends un instant / duration:1236
+text: Le voici ! / duration:821
+text: Je me depeche / duration:1200
+text: Tiens, prends ! / duration:1133
+text: C’est à mon tour! / duration:1190
+text: Tiens bon ! / duration:801
+text: je gère ne t'en fais pas / duration:1615
+text: Formidables! / duration:1143
+text: Je me lance! / duration:1046
+text: Parfaitement exécuté ! / duration:1624
+text: Je prends la main! / duration:1042
+text: Prend le ! / duration:660
+text: Je viens t’aider! / duration:1076
+text: Hop, pour toi ! / duration:1228
+text: Excellent ! / duration:768
+text: C’est tout bon ! / duration:911
+text: À ton tour! / duration:832
+text: C’est bien ça ! / duration:1012
+text: Je vais t’aider! / duration:942
+text: À toi maintenant ! / duration:1189
+text: C’est mon tour ! / duration:1032
+text: Attrape ça ! / duration:933
+text: Très bien ! / duration:709
+text: Je gère cette partie! / duration:1543
+text: Tu peux le prendre! / duration:1217
+text: Oui, comme ça ! / duration:1232
+text: À moi! / duration:570
+text: Je gère la suite! / duration:1473
+text: Voilà! / duration:680
+text: Et voila! / duration:744
+text: Parfait! / duration:696
+text: Je te donne ça ! / duration:1053
+text: Top! / duration:557
+text: Je vais le chercher! / duration:1331
+text: Je te le donne ! / duration:1014
+text: Je t'aide! / duration:846
+text: Il est a toi! / duration:917
+text: Je m’y mets! / duration:805
+text: Reçois ça ! / duration:930
+text: Je m’occupe de la suite! / duration:1676
+text: Nickel! / duration:851
+text: À moi d’agir! / duration:1245
+text: bien vu! / duration:737
+text: Laisse-moi faire ça! / duration:1212
+text: Je me charge de ça! / duration:1485
+text: J'y travaille! / duration:973
+text: c’est pour moi! / duration:962
+text: Je te le donne! / duration:989
+text: Je vais le faire! / duration:1065
+text: Tiens, c’est prêt ! / duration:1442
+text: Je prends la suite! / duration:1365
+text: Je te l’amène! / duration:1192
+text: Voilà, prends le! / duration:1406
+text: Ne fais rien! / duration:901
+text: Attends, j'y vais! / duration:1284
+text: Felicitations! / duration:1238
+text: Tu peux y aller! / duration:947
+text: J’arrive / duration:831
+text: Attrape ! / duration:831
+text: Je gére. / duration:770
+text: Je me lance. / duration:1021
+text: J’attrape. / duration:1000
+text: Je prends. / duration:693
+text: je t'aide. / duration:855
+text: Attends. / duration:621
+text: J'y vais. / duration:755
+text: c'est ca! / duration:664
+text: Je suis là. / duration:907
+text: Je le prend. / duration:850
+text: Je récupère l'objet. / duration:1494
+text: On y va. / duration:695
+text: C’est parti. / duration:907
+text: Je récupère. / duration:1182
+text: A moi. / duration:574
+text: Je vais te donner un coup de main. / duration:1711
+text: Felicitations! C'etait super. / duration:2427
+text: laisse-moi faire. / duration:1053
+text: Formidable! Continue comme ca. / duration:2330
+text: je vais m'en occuper. / duration:1299
+text: bon! je vais t'aider / duration:1392
+text: bravo! trai bien / duration:1467
+text: Bien jouer! / duration:907
+text: Laisse, je m’en occupe. / duration:1659
+text: je vais m’en charger. / duration:1278
+text: Je vais m’occuper de ça. / duration:1546
+text: Pas de souci, je gère. / duration:1816
+text: Attends, je peux t'aider. / duration:1560
+text: Laisse-moi m’en charger. / duration:1509
+text: C’est un peu loin, Je m’en charge ! / duration:2334
+text: C’est bon, je m’en occupe. / duration:1890
+text: C’est bon, je m'en charge. / duration:1853
+text: c’est un peu loin, je m’en occupe ! / duration:2374
+text: Prends le! / duration:644
+text: Je prends les choses en main ! / duration:1441
+text: Je prends ça pour toi. / duration:1424
+text: Laisse-moi t’aider un peu. / duration:1563
+text: Je vais m’en occuper. / duration:1278
+text: Je m'en charge pour toi. / duration:1538
+text: Je prends ça en main ! / duration:1260
+text: Allez, je te file un coup de main ! / duration:2140
+text: Je m’en occupe à ta place. / duration:1795
+text: Je m’en charge, c’est plus simple / duration:2211

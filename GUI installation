@@ -1,0 +1,173 @@
+Python 2.7 + 3.10 Installation and Setup on Ubuntu
+===================================================
+
+This guide shows how to:
+- Install Python 2.7 from source
+- Install Python 3.10 using deadsnakes PPA
+- Make Python 2.7 the default `python` command
+
+
+1. Install Required Build Dependencies
+---------------------------------------
+sudo apt update
+sudo apt install -y build-essential zlib1g-dev libncurses5-dev \
+libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev \
+wget curl libsqlite3-dev xz-utils tk-dev
+
+
+2. Install Python 2.7 from Source
+---------------------------------
+cd /usr/src
+sudo wget https://www.python.org/ftp/python/2.7.18/Python-2.7.18.tgz
+sudo tar xzf Python-2.7.18.tgz
+cd Python-2.7.18
+sudo ./configure --enable-optimizations
+sudo make altinstall
+
+# Python 2.7 will now be available as:
+/usr/local/bin/python2.7
+
+
+3. Install Python 3.10 from Deadsnakes PPA
+------------------------------------------
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10
+
+# Python 3.10 will now be available as:
+/usr/bin/python3.10
+
+
+4. Make Python 2.7 the Default `python` Command
+-----------------------------------------------
+sudo ln -sf /usr/local/bin/python2.7 /usr/bin/python
+
+# Confirm:
+python --version     # Should show Python 2.7.18
+python3 --version    # Should show Python 3.10.x
+
+
+5. Optional: Verify Specific Binaries
+-------------------------------------
+/usr/local/bin/python2.7 --version
+/usr/bin/python3.10 --version
+
+
+6. Install pip and git
+----------------------
+
+curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py  
+sudo python get-pip.py  
+
+curl https://bootstrap.pypa.io/get-pip.py --output get-pip.py  
+python3.10 get-pip.py 
+
+sudo apt update  
+sudo apt install git  
+
+Optional Add-ons
+================
+- If you need pip for Python 2.7:
+  curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
+  sudo python get-pip.py
+
+- To list all Python versions:
+  ls /usr/bin/python*
+  ls /usr/local/bin/python*
+
+- To switch versions easily in future, consider installing pyenv.
+
+======================================================================================================
+------------------------------------------------------------------------------------------------------
+======================================================================================================
+
+NAOqi SDK Python 2.7 Installation and Setup on Linux
+====================================================
+
+This guide shows how to:
+- Configure your environment to use the NAOqi SDK Python module
+- Permanently set PYTHONPATH for Python 2.7
+
+1. Locate the NAOqi SDK Folder
+------------------------------
+Assuming the SDK is extracted at:
+ /home/pepper/pynaoqi-python2.7-2.8.7.4-linux64-20210819_141148
+
+2. Find the Python Module Path
+------------------------------
+The Python naoqi.py module is inside:
+ /home/pepper/pynaoqi-python2.7-2.8.7.4-linux64-20210819_141148/lib/python2.7/site-packages
+
+3. Set the PYTHONPATH Environment Variable
+------------------------------------------
+Temporarily set PYTHONPATH in your shell:
+
+ export PYTHONPATH=/home/pepper/pynaoqi-python2.7-2.8.7.4-linux64-20210819_141148/lib/python2.7/site-packages:$PYTHONPATH
+
+4. Make the PYTHONPATH Setting Permanent
+----------------------------------------
+Append the export line to your ~/.bashrc or ~/.bash_profile:
+
+ echo 'export PYTHONPATH=/home/pepper/pynaoqi-python2.7-2.8.7.4-linux64-20210819_141148/lib/python2.7/site-packages:$PYTHONPATH' >> ~/.bashrc
+ source ~/.bashrc
+
+5. Verify the Installation
+--------------------------
+Start Python 2.7 and import the NAOqi module:
+
+ python2.7
+ >>> import naoqi
+
+If no error occurs, the NAOqi SDK Python module is ready to use.
+
+Optional Tips
+=============
+- In your Python scripts, you can also temporarily add to sys.path if needed:
+
+ import sys
+ sys.path.append('/home/pepper/pynaoqi-python2.7-2.8.7.4-linux64-20210819_141148/lib/python2.7/site-packages')
+ import naoqi
+ 
+======================================================================================================
+------------------------------------------------------------------------------------------------------
+======================================================================================================
+
+Required Software and Python Packages for the GUI
+=================================================
+
+To run the GUI application correctly, please make sure to install the following system libraries and Python packages:
+System Libraries (via apt-get)
+
+    libespeak1 — Text-to-speech engine dependency
+
+    libportaudio2, libportaudiocpp0, portaudio19-dev — Audio input/output support
+
+    python3.10-dev — Python development headers needed for some packages
+    
+    cmd: sudo apt-get install libespeak1 libportaudio2 libportaudiocpp0 portaudio19-dev python3.10-dev
+
+Python Packages
+
+    pyttsx3==2.6 — Offline text-to-speech synthesis
+
+    opencv-python==3.4.9.31 — Computer vision core
+
+    opencv-contrib-python==3.4.9.31 — Extra OpenCV modules
+
+    Pillow — Image processing library
+
+    SpeechRecognition — Speech-to-text recognition
+
+    sounddevice — Access to microphone and audio devices
+
+    mistralai — AI model interaction (specific to your project)
+
+    PyAudio — Audio I/O support required by SpeechRecognition and sounddevice
+    
+    cmd:
+    	pip2 install pyttsx3==2.6
+	pip install opencv-python==3.4.9.31 opencv-contrib-python==3.4.9.31 Pillow pyserial
+	python3.10 -m pip install SpeechRecognition sounddevice mistralai PyAudio
+
+
+
